@@ -1,8 +1,7 @@
-a = input("Pon tu edad: ")
-print("Tienes {} años".format(a))
-if a>18:
+a = int(input("Pon tu edad: "))
+if a<18:
      print("Eres menor de edad, no puedes acceder")
+elif a>18:  
+     print("Eres mayor de edad, puedes acceder")     
 else: 
-     print("Eres mayor de edad, puedes acceder")
-if a=18: 
      print("Tienes justo 18, vas pelao, pero puedes acceder")
