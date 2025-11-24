@@ -1,11 +1,12 @@
 def menu_principal():
     opcio=0
-    while opcio<1 or opcio>3:
+    while opcio<1 or opcio>4:
         opcio = int(input(""" Elegeixi una opció:
                       1. Calculadora decimal
                       2. Calculadora real (floats)
-                      3. Sortir \n"""))
-    if opcio>0 and opcio<4:
+                      3. Calculadora de canvis de base
+                      4. Sortir \n"""))
+    if opcio>0 and opcio<5:
         return opcio
     else:
         print("L'opció seleccionada no es correcte,torni-ho a provar!!\n")
@@ -90,6 +91,10 @@ while op!=0:
     elif op==2:
         #Calculadora real
          print("Estic passant per la calculadora real! \n")
+         calculadora_real(menu_calculadora())
+    elif op==3:
+        #Canvis de base
+         print("Estic passant per la calculadora de canvis de base! \n")
          calculadora_real(menu_calculadora())
     else:
         print("Gracies per a utilitzar la meva calculadora, fins un altre dia! \n")
