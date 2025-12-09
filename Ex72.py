@@ -46,9 +46,12 @@ print("Noms dels companys escrits i fitxer tancat")
 # 4. Obrir el fitxer per afegir els noms dels professors
 with open(nom_fitxer, 'a', encoding='utf-8') as fitxer:
     # Afegir noms dels professors
-    fitxer.write("Professor Joan\n")
-    fitxer.write("Professora Marta\n")
-    fitxer.write("Professor Carles\n")
+    fitxer.write("Joan Carreras\n")
+    fitxer.write("David Labiano\n")
+    fitxer.write("Irene Coll\n")
+    fitxer.write("Pep Malle\n")
+    fitxer.write("Manel Bosch\n")
+    fitxer.write("Jesus Capo\n")
 print("Noms dels professors afegits i fitxer tancat")
 
 # 5. Obrir el fitxer i posar tot el contingut dins una llista
